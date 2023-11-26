@@ -73,7 +73,7 @@ If Mutual TLS (MTLS) support is enabled for the direct routing connection on the
 
 The connection points for Communication Services direct routing are the following three FQDNs:
 
-- **sip.pstnhub.microsoft.com — Global FQDN — must be tried first. When the SBC sends a request to resolve this name, the Microsoft Azure DNS servers return an IP address that points to the primary Azure datacenter assigned to the SBC. The assignment is based on performance metrics of the datacenters and geographical proximity to the SBC. The IP address returned corresponds to the primary FQDN.
+- **sip.pstnhub.microsoft.com** — Global FQDN — must be tried first. When the SBC sends a request to resolve this name, the Microsoft Azure DNS servers return an IP address that points to the primary Azure datacenter assigned to the SBC. The assignment is based on performance metrics of the datacenters and geographical proximity to the SBC. The IP address returned corresponds to the primary FQDN.
 - **sip2.pstnhub.microsoft.com** — Secondary FQDN — geographically maps to the second priority region.
 - **sip3.pstnhub.microsoft.com** — Tertiary FQDN — geographically maps to the third priority region.
 
@@ -125,13 +125,12 @@ The port ranges of the Media Processors are shown in the following table:
 
 Media Processors are placed in the same datacenters as SIP proxies:
 - NOAM (US South Central, two in US West and US East datacenters)
-- Europe (UK South, France Central, Amsterdam and Dublin datacenters)
+- Europe (EU West, EU North, Sweden, France Central)
 - Asia (Singapore datacenter)
 - Japan (JP East and West datacenters)
 - Australia (AU East and Southeast datacenters)
 - LATAM (Brazil South)
 - Africa (South Africa North)
-
 
 ## Media traffic: Codecs
 
